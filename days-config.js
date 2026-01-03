@@ -57,99 +57,14 @@ const DAYS_CONFIG = {
         quoteGifUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/69599fcf748303a262ec5488.gif"
     },
     7: {
-        title: "Coming Soon",
+        title: "Be Careful Who You Listen To",
         date: "January 11, 2026",
         dateShort: "Jan 11",
-        scripture: "",
-        quote: "",
-        videoUrl: "",
-        quoteGifUrl: ""
+        scripture: "1 Kings 13:9",
+        quote: "Be careful who you listen to when you are tired, weary, or vulnerable. Stay true to God's instructions.",
+        videoUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/6959a78f3ccdd60d8ab9e613.mp4",
+        quoteGifUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/6959a94705b511dd79e81239.gif"
     }
 };
 
 const BASE_URL = "https://calvaryhephzibah.co.uk/21dayfast";
-
-// Function to initialize dynamic navigation
-function initDynamicNav(currentDay) {
-    const prevDay = currentDay - 1;
-    const nextDay = currentDay + 1;
-    
-    // Update previous day link
-    const prevButton = document.querySelector('.nav-button.prev');
-    if (prevButton && prevDay >= 1 && DAYS_CONFIG[prevDay]) {
-        prevButton.href = `${BASE_URL}-day${prevDay}`;
-        const titleSpan = prevButton.querySelector('.nav-button-title');
-        if (titleSpan) {
-            titleSpan.textContent = `Day ${prevDay}: ${DAYS_CONFIG[prevDay].title}`;
-        }
-    } else if (prevButton && prevDay < 1) {
-        // Link to series home for Day 1
-        prevButton.href = BASE_URL;
-        const labelSpan = prevButton.querySelector('.nav-button-label');
-        const titleSpan = prevButton.querySelector('.nav-button-title');
-        if (labelSpan) labelSpan.textContent = '← Back to';
-        if (titleSpan) titleSpan.textContent = 'Series Home';
-    }
-    
-    // Update next day link
-    const nextButton = document.querySelector('.nav-button.next');
-    if (nextButton && nextDay <= 21 && DAYS_CONFIG[nextDay]) {
-        nextButton.href = `${BASE_URL}-day${nextDay}`;
-        const titleSpan = nextButton.querySelector('.nav-button-title');
-        if (titleSpan) {
-            titleSpan.textContent = `Day ${nextDay}: ${DAYS_CONFIG[nextDay].title}`;
-        }
-    } else if (nextButton && nextDay > 21) {
-        // Hide next button on Day 21
-        nextButton.style.display = 'none';
-    }
-    
-    // Update sidebar day list if present
-    updateSidebarDays();
-}
-
-// Function to update sidebar days list
-function updateSidebarDays() {
-    const dayItems = document.querySelectorAll('.day-item');
-    dayItems.forEach(item => {
-        const dayNum = item.getAttribute('data-day');
-        if (dayNum && DAYS_CONFIG[dayNum]) {
-            const config = DAYS_CONFIG[dayNum];
-            const titleEl = item.querySelector('.day-item-title');
-            const numberEl = item.querySelector('.day-item-number');
-            
-            if (titleEl) titleEl.textContent = config.title;
-            if (numberEl) numberEl.textContent = `Day ${dayNum} — ${config.dateShort}`;
-            
-            // Update link
-            if (item.tagName === 'A') {
-                item.href = `${BASE_URL}-day${dayNum}`;
-            }
-        }
-    });
-}
-
-// Function to update share modal downloads
-function initShareDownloads(currentDay) {
-    const config = DAYS_CONFIG[currentDay];
-    if (!config) return;
-    
-    // Update quote GIF download
-    const quoteDownload = document.querySelector('.download-btn[download*="Quote"]');
-    if (quoteDownload && config.quoteGifUrl) {
-        quoteDownload.href = config.quoteGifUrl;
-        quoteDownload.download = `Day${currentDay}-Quote-21DayFast.gif`;
-    }
-    
-    // Update video download
-    const videoDownload = document.querySelector('.download-btn[download*="Video"]');
-    if (videoDownload && config.videoUrl) {
-        videoDownload.href = config.videoUrl;
-        videoDownload.download = `Day${currentDay}-Video-21DayFast.mp4`;
-    }
-}
-
-// Export for use
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = { DAYS_CONFIG, initDynamicNav, initShareDownloads };
-}
