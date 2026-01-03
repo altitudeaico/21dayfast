@@ -39,13 +39,13 @@ const DAYS_CONFIG = {
         quoteGifUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/695992bcedb8a2390683a969.gif"
     },
     5: {
-        title: "Coming Soon",
+        title: "Healed from Betrayal",
         date: "January 9, 2026",
         dateShort: "Jan 9",
-        scripture: "",
-        quote: "",
-        videoUrl: "",
-        quoteGifUrl: ""
+        scripture: "Psalm 27:13",
+        quote: "God healed your heart. Now you are stronger, smarter, and poised for great things.",
+        videoUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/6959982c6e700e262c09d19e.mp4",
+        quoteGifUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/6959994e3ccdd69ae7b301dd.gif"
     },
     6: {
         title: "Coming Soon",
