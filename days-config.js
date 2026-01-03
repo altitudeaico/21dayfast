@@ -48,13 +48,13 @@ const DAYS_CONFIG = {
         quoteGifUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/6959994e3ccdd69ae7b301dd.gif"
     },
     6: {
-        title: "Coming Soon",
+        title: "Out of the Dungeon",
         date: "January 10, 2026",
         dateShort: "Jan 10",
-        scripture: "",
-        quote: "",
-        videoUrl: "",
-        quoteGifUrl: ""
+        scripture: "Jonah 2:7-10",
+        quote: "In His mercy, God took you out of the dungeon, spoke kindly to you, and restored you for His glory.",
+        videoUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/69599ed26e700ecffa0cf879.mp4",
+        quoteGifUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/69599fcf748303a262ec5488.gif"
     },
     7: {
         title: "Coming Soon",
