@@ -30,13 +30,13 @@ const DAYS_CONFIG = {
         quoteGifUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/695977d83ccdd69bf7aa6fd3.gif"
     },
     4: {
-        title: "Coming Soon",
+        title: "But for God",
         date: "January 8, 2026",
         dateShort: "Jan 8",
-        scripture: "",
-        quote: "",
-        videoUrl: "",
-        quoteGifUrl: ""
+        scripture: "Psalm 115:17-18",
+        quote: "But for God, things could have been fatal. But for God, you're still here.",
+        videoUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/6959918505b511dac0dc6a58.mp4",
+        quoteGifUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/695992bcedb8a2390683a969.gif"
     },
     5: {
         title: "Coming Soon",
