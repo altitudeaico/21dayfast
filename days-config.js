@@ -64,6 +64,15 @@ const DAYS_CONFIG = {
         quote: "Be careful who you listen to when you are tired, weary, or vulnerable. Stay true to God's instructions.",
         videoUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/6959a78f3ccdd60d8ab9e613.mp4",
         quoteGifUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/6959a94705b511dd79e81239.gif"
+    },
+    9: {
+        title: "The Secret Place",
+        date: "January 13, 2026",
+        dateShort: "Jan 13",
+        scripture: "Mark 1:35",
+        quote: "Find your solitary place—you and God alone, away from every distraction. That's where you'll hear Him clearly.",
+        videoUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/69623f1af13bc3261946533a.mp4",
+        quoteGifUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/696231b0e1863857097a8186.gif"
     }
 };
 
