@@ -65,6 +65,15 @@ const DAYS_CONFIG = {
         videoUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/6959a78f3ccdd60d8ab9e613.mp4",
         quoteGifUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/6959a94705b511dd79e81239.gif"
     },
+    8: {
+        title: "The God-Idea",
+        date: "January 12, 2026",
+        dateShort: "Jan 12",
+        scripture: "Proverbs 3:5",
+        quote: "Let it not just be a good idea. Let it be the God-idea.",
+        videoUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/69624d50e18638c6677e0f61.mp4",
+        quoteGifUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/69624d5098efbdad279a5a21.gif"
+    },
     9: {
         title: "The Secret Place",
         date: "January 13, 2026",
