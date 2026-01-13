@@ -82,6 +82,42 @@ const DAYS_CONFIG = {
         quote: "Find your solitary place—you and God alone, away from every distraction. That's where you'll hear Him clearly.",
         videoUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/69623f1af13bc3261946533a.mp4",
         quoteGifUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/696231b0e1863857097a8186.gif"
+    },
+    10: {
+        title: "Removing Barriers",
+        date: "January 14, 2026",
+        dateShort: "Jan 14",
+        scripture: "Matthew 17:21",
+        quote: "When those barriers are lifted, you will be released to serve God at a higher level.",
+        videoUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/6966b922e2d75b7abb2d2e95.mp4",
+        quoteGifUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/696253ea98efbd1c149b1c14.gif"
+    },
+    11: {
+        title: "Mourning Into Dancing",
+        date: "January 15, 2026",
+        dateShort: "Jan 15",
+        scripture: "Psalm 30:11",
+        quote: "God arrested the plans of the enemy over you. Now you have a testimony!",
+        videoUrl: "",
+        quoteGifUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/69625a48e1863813747fb75c.gif"
+    },
+    12: {
+        title: "Through the Valley",
+        date: "January 16, 2026",
+        dateShort: "Jan 16",
+        scripture: "Acts 16:26",
+        quote: "You may be in the valley, but don't fear any evil. Trust God—He will shake the foundations and set you free.",
+        videoUrl: "",
+        quoteGifUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/69625d3be186387a8c801b8e.gif"
+    },
+    13: {
+        title: "You Made It",
+        date: "January 17, 2026",
+        dateShort: "Jan 17",
+        scripture: "Philippians 4:13",
+        quote: "That achievement you had—the course you finished, the interview you passed—you made it through Christ who gave you strength.",
+        videoUrl: "",
+        quoteGifUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/696266e4e18638672c816f7e.gif"
     }
 };
 
