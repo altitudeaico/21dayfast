@@ -89,7 +89,7 @@ const DAYS_CONFIG = {
         dateShort: "Jan 14",
         scripture: "Matthew 17:21",
         quote: "When those barriers are lifted, you will be released to serve God at a higher level.",
-        videoUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/6966b922e2d75b7abb2d2e95.mp4",
+        videoUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/6967381089a60e0fc13dbf5a.mp4",
         quoteGifUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/696253ea98efbd1c149b1c14.gif"
     },
     11: {
@@ -98,7 +98,7 @@ const DAYS_CONFIG = {
         dateShort: "Jan 15",
         scripture: "Psalm 30:11",
         quote: "God arrested the plans of the enemy over you. Now you have a testimony!",
-        videoUrl: "",
+        videoUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/6968716225c12ad9c21ba86d.mp4",
         quoteGifUrl: "https://storage.googleapis.com/msgsndr/ufTeOHywYxLPaG9TDWPG/media/69625a48e1863813747fb75c.gif"
     },
     12: {
